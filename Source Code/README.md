@@ -158,6 +158,43 @@ The knowledge base can also be extended through background feed ingestion from p
 
 ---
 
+## How to Run
+
+**Requirements:** Python 3.9+
+
+1. Open terminal and navigate to the `Source Code` folder:
+   ```cmd
+   cd "Source Code"
+   ```
+
+2. Create and activate a virtual environment:
+   ```cmd
+   python -m venv venv
+   venv\Scripts\activate
+   ```
+
+3. Install dependencies:
+   ```cmd
+   pip install -r backend/requirements.txt
+   ```
+
+4. Start the server:
+   ```cmd
+   python -m uvicorn backend.main:app --reload
+   ```
+
+5. Open `http://127.0.0.1:8000` in your browser.
+
+| URL | Purpose |
+|-----|---------|
+| `http://127.0.0.1:8000` | Main UI |
+| `http://127.0.0.1:8000/docs` | Swagger API docs |
+| `http://127.0.0.1:8000/health` | Health check |
+
+> Run the command from the `Source Code` folder, not from inside `backend/`.
+
+---
+
 ## Disclaimer
 
 This project is intended for informational and educational use only. It is not a substitute for professional medical advice, diagnosis, or treatment. Users should consult a qualified healthcare provider for medical decisions and emergencies.
