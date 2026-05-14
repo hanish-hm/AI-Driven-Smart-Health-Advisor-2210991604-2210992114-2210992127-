@@ -94,7 +94,7 @@ It acts as a **decision-support tool** to help users understand potential risks 
 
 ## 📊 Submission Status
 
-✅ Completed
+✅ Submitted
 
 ---
 
