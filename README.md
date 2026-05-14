@@ -63,21 +63,18 @@ It acts as a **decision-support tool** to help users understand potential risks 
 ## 📁 Repository Structure
 
 * **Source Code**
+  
+  * Complete project implementation (Frontend + Backend)
 
-  * Contains complete project implementation (frontend + backend)
-
-* **Report**
-
+* **Report and PPT**
+  
   * Final Project Report
-  * Presentation (PPT)
+  * Project Presentation (PPT)
 
-* **Documents**
-
+* **Submission Proof**
+  
   * Research Paper
-  * PIE/CIE Forms
-  * Patent/Copyright files
-  * Submission screenshots
-
+  * Submission Screenshots
 ---
 
 ## 🚀 How the System Works
